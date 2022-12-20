@@ -4,53 +4,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Landing Page</title>
+    <title>Netflix Survey Form</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Lilita+One&family=Luckiest+Guy&family=Sigmar+One&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav class="nav-left">
-        <a href="">About</a>
-        <a href="">Store</a>
-      </nav>
-      <nav class="nav-right">
-        <a href="">Gmail</a>
-        <a href="">Images</a>
-        <a href=""
-          ><img id="icon-menu" src="./images/appicon.png" alt="Icon Menu"
-        /></a>
-        <button id="sign-btn">Sign In</button>
-      </nav>
-    </header>
-    <section class="logo"><img src="./images/googlelogo.png" alt="" /></section>
-    <section class="search-bar">
-      <img id="img-magnify" src="./images/Magnifying_glass_icon.png" alt="" />
-
-      <input type="search" name="search-bar" />
-      <a href=""
-        ><img id="img-microphone" src="./images/google_microphone.png" alt=""
-      /></a>
-    </section>
-    <section class="search-btn">
-      <button>Google Search</button>
-      <button>I'm Feeling Lucky</button>
-    </section>
-    <section class="languages">
-      <p>Other Languages you can use Google: <a href="">English</a></p>
-    </section>
-
-    <footer>
-      <p>Turkey</p>
-      <nav class="footer-left">
-        <a href="">Advertising</a>
-        <a href="">Business</a>
-        <a href="">How Search Works</a>
-      </nav>
-      <nav class="footer-right">
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Settings</a>
-      </nav>
-    </footer>
+    <div id="container">
+      <header>
+        <h1 id="title">NET<span id="flix">FLIX</span></h1>
+        <h3 id="description">
+          Thank you for signing up at Netflix.Tell us more about your self
+        </h3>
+      </header>
+      <section id="survey-form">
+        <form action="result.html">
+          <div class="box">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="box">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Age" />
+          </div>
+          <div class="box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="box">
+            <label for="content">Content type</label>
+            <select name="content" id="content">
+              <option value="series">Series</option>
+              <option value="tvshows">TV Shows</option>
+              <option value="documentarys">Documentarys</option>
+              <option value="movie">Movies</option>
+            </select>
+          </div>
+          <div class="box" id="movie">
+            <label for="movie">Movie type</label>
+            <div>
+              <input type="checkbox" name="movie" id="comedy" />
+              <label for="comedy">Comedy</label>
+            </div>
+            <div>
+              <input type="checkbox" name="movie" id="action" />
+              <label for="action">Action</label>
+            </div>
+            <div>
+              <input type="checkbox" name="movie" id="romance" checked />
+              <label for="romance">Romance</label>
+            </div>
+          </div>
+          <div class="box" id="gender">
+            <label for="gender">Gender</label>
+            <div>
+              <input type="radio" name="gender" id="male" />
+              <label for="male">Male</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="other" />
+              <label for="other">Other</label>
+            </div>
+          </div>
+          <div class="box">
+            <label for="comment">Feed back</label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="5"
+              placeholder="Any comment"
+            ></textarea>
+          </div>
+          <div class="btn">
+            <input id="submit" type="submit" value="Send" />
+          </div>
+        </form>
+      </section>
+    </div>
   </body>
 </html>

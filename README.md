@@ -1,51 +1,50 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-## Project-002 :Google Landing Page (HC-02)
+# Project-001 :Survey Form (HC-01)
 
 ## Description
-Project aims to create google landing page.
+Project aims to create survey form within html and css.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to create a landing page. So you and your colleagues have started to work on the project.
+- Your company has recently started on a project that aims to conduct a survey to measure the demands and interests of its customers. So you and your colleagues have started to work on the project.
+
+## Project Design
+
+- <a href="https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4">https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4<a>
 
 ## Project Skeleton 
 
 ```
-002-google-landing-page (folder)
+001-survey-form (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
-|----images            # Given to the students (Definition of the project)   
-        |----appicon.png   
-        |----gfavicon.png
-		|----google_microphone.png
-		|----googlelogo.png
-		|----icon-menu.jpg
-		|----magnifying_glass.png
 |----solution
         |----index.html  
         |----style.css   
-        |----images
+        |----result.html 
 ```
 
 ## Expected Outcome
 
-![Project 002 Snapshot](Project_002_.png)
+![Project 001 Snapshot](Project_001_.png)
 
 ## Objective
 
-Build a Landing that is functionally similar to this: [Google Landing Page](https://aaron-clarusway.github.io/google-landing--page/)
+Functionally create a Survey Form as in the image above
 
 ### At the end of the project, following topics are to be covered;
 
-- HTML 
+- HTML Forms-Input Types 
 
-- List Properties-Tables / CSS-The Display Property-The position Property
+- HTML Form Elements
 
-- Overflow Property-The float Property-Opacity / Transparency-Units in CSS
+- CSS Colors-Border Properties
 
-- CSS Setting height and width-CSS Outline-CSS Combinators
+- CSS Margins-Padding
+
+- CSS Properties for Texts-Font Families-Links
 
 
 ### At the end of the project, students will be able to;
@@ -60,8 +59,35 @@ Build a Landing that is functionally similar to this: [Google Landing Page](http
 
 - Step 2: Create project folder for local public repo on your pc
 
-- Step 3: Create Google Landing Page
+- Step 3: Create Survey Form
 
+>>Part-1 HTML Structure
+
+	- Creat structure of the HTML5
+	- Give name of your project (title)
+	- Create the main structure of the container (div id="container")
+	- Create Main Topic of the project (id="title")
+	- Create a description of your project (id="description")
+	- Create a form (id="survey-form")
+	- Create 4 divisions (class="box") for each label and single-line text input field (Tips:dont forget to use placeholder)
+	- Create a division (class="box") for a dropdown list. (Tips:dont forget to use a label tag)
+	- Create a division (class="box") for checkbox list
+	- Create a division (class="box") for radio buttons
+	- Create a division (class="box") for a multi-line input field (Tips: a text area)
+	- Create a button for id="submit" the form
+
+>>Part-2 CSS Structure
+	- Set a background and define font-color="white"
+	- Set container background color and margin
+	- Define "title" and "description" color-size-padding etc...
+	- Define "survey-form" color-size-padding etc..
+	- Define labels color-size-padding etc... (Tips: id="name", "email", "number" ...)
+	- Set class color-size-padding-margin etc...
+	- Define id="submit" color-size-padding etc...
+	
+- Step 4: Push your application into your own public repo on Github
+
+- Step 5: Deploy your application on Github template to showcase your app within your team.
 
 ## Notes
 
@@ -69,8 +95,8 @@ Build a Landing that is functionally similar to this: [Google Landing Page](http
 
 ## Resources
 
--  [Images](./images)
+-  [Background Image Url](./background_image.jpg)
 
 
-<p align='center'> ⌛ Happy Coding  ✍ </p>
+<center> &#8987; Happy Coding  &#9997; </center>
 
