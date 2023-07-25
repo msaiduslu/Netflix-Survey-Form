@@ -26,7 +26,7 @@ survey-form (folder)
 
 ## Objective
 
-Functionally create a Survey Form as in the image above
+Functionally create a Survey Form as in the figma design above
 
 ### At the end of the project, following topics are to be covered;
 
@@ -40,7 +40,7 @@ Functionally create a Survey Form as in the image above
 
 - CSS Properties for Texts-Font Families-Links
 
-### At the end of the project, students will be able to;
+### At the end of the project, students will be able to;ß
 
 - improve coding skills within HTML & CSS
 
