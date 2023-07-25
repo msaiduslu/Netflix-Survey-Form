@@ -40,7 +40,7 @@ Functionally create a Survey Form as in the figma design above
 
 - CSS Properties for Texts-Font Families-Links
 
-### At the end of the project, students will be able to;ß
+### At the end of the project, students will be able to;
 
 - improve coding skills within HTML & CSS
 
