@@ -47,9 +47,3 @@ Functionally create a Survey Form as in the figma design above
 - learn to read figma file and implement
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Notes
-
-- You can use HTML,and CSS to complete this project.
-
-<center> &#8987; Happy Coding  &#9997; </center>
